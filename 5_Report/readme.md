@@ -1,6 +1,62 @@
 # M2_Embedded_Temperature_Controlled_Car_Seats
 Project Based On The Heat Control System Of Car Seat
 The Temperature control system in this project is basically used to control the temperature of a car seat. When a user or driver of the car gets seated on a car, the button sensor gets activated. After that, the user gets access to turn on the heater. The temperature sensor keeps monitoring the temperature and sends the analog value to the microcontroller. The microcontroller processes the analog input of the temperature sensor and outputs a temperature value through serial communication. All the activities of the control system are done on a microcontroller called Atmega328.
+Heat Control System
+
+# Components used
+ATmega328 microcontroller
+
+temperature sensor (Potentiometer)
+
+Switches(button and heater)
+
+LED
+
+LCD display
+
+Software used
+SimulIDE
+
+GCC Compiler for AVR
+
+Code block
+
+# Features
+The System will be able to tell whether a person is seated or not.
+
+A person once seated gets the access to turn ON the heater.
+
+The temperature sensor keeps monitoring the temperature and sends the analog value to the microcontroller.
+
+# SWOT - Strengths, Weakness, Opportunities and Threats
+Strengths
+Robust in nature
+
+low cost
+
+Easily accessible by the any person
+
+High efficiency
+
+Weakness
+This system can be used at low to moderate temperature.
+
+Opportunities
+This system can be expanded by adding few more features depending on the user requirement.
+
+Threats
+This system cannot be used for very high temperature.
+
+# 4W's and 1H
+What - Heating control system in a vehicle
+
+Where - Used in almost all of the passenger vehicles
+
+When - When temperature is low
+
+Why - To maintain body temperature
+
+How - By using sensors
 
 ### SIMULATION:>
 
